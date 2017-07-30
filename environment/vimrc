@@ -1,0 +1,11 @@
+syntax on
+set number
+set si
+set ci
+set ai
+set paste
+set ts=4
+set sw=4
+set hlsearch
+set ruler
+set sm
