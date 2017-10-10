@@ -12,5 +12,5 @@ cp -v "$ENVIRONMENT_DIR/vimrc" "$TARGET_DIR/.vimrc"
 print
 
 print "** Setup Mac terminal environment **"
-cp -v "$ENVIRONMENT_DIR/profile" "$TARGET_DIR/.profile"
+cp -v "$ENVIRONMENT_DIR/profile" "$TARGET_DIR/.bash_profile"
 print
