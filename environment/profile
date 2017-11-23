@@ -4,4 +4,4 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto'
 alias ls='ls -GFh'
 alias ll='ls -lv'
-alias grep --color
+alias grep="grep --color"
