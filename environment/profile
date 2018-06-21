@@ -1,13 +1,24 @@
+############################
+## alias for terminal
+############################
 export TERM=xterm-color
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export GREP_OPTIONS='--color=auto'
 
+############################
+## alias for bash
+############################
 alias ls='ls -GFh'
 alias ll='ls -lv'
 alias grep="grep --color"
 
+############################
 ## alias for ffprobe
+############################
 alias ffprobe_show="ffprobe -v quiet -show_format -show_streams -print_format json"
-alias ffprobe_pict="ffprobe -v quiet -show_frames -select_streams v -show_entries frame=pict_type -of csv"
+alias ffprobe_vpict="ffprobe -v quiet -show_frames -select_streams v -show_entries frame=pict_type -of csv"
+alias ffprobe_apict="ffprobe -v quiet -show_frames -select_streams a -show_entries frame=pict_type -of csv"
+alias ffprobe_apts="ffprobe -v quiet -show_frames -select_streams a -show_entries frame=pkt_dts -of csv"
+alias ffprobe_vpts="ffprobe -v quiet -show_frames -select_streams v -show_entries frame=pkt_dts -of csv"
