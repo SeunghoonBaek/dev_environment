@@ -10,3 +10,4 @@ set hlsearch
 set ruler
 set sm
 set ignorecase
+set mouse=a
