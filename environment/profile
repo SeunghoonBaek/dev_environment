@@ -37,4 +37,4 @@ alias ffprobe_pict_ts='ffprobe -show_frames -select_streams v -show_entries fram
 ## alias for development
 ############################
 ## gt stand for "go test"
-alias gt='mkdir -p /Users/lineplus/test/181010 ; cd /Users/lineplus/test/181010'
+alias gt='mkdir -p ${HOME}/test/$(date '+%y%m%d') ; cd ${HOME}/test/$(date '+%y%m%d')'
